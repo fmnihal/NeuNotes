@@ -14,8 +14,9 @@
     "writeToLogFile": true
   },
   "nativeAllowList": [
-    "app.*",
-    "os.*",
+    "app.exit",
+    "os.showSaveDialog",
+    "os.showOpenDialog",
     "debug.log",
     "filesystem.writeFile",
     "filesystem.readFile"
