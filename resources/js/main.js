@@ -43,6 +43,8 @@ async function saveNotes() {
       
       statusMessage.innerText = "Note saved successfully!";
       statusMessage.style.color = "green";
+      // --- ADD THIS LINE ---
+      noteArea.value = ''; // Clears the text area
 
     } else {
       statusMessage.innerText = "Save operation cancelled.";
